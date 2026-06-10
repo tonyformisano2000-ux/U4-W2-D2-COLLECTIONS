@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class es1 {
 
-    public static void Parole(){
+    public static void parole(){
 //        CHIEDO IL NUMERO DI PAROLE DA INSERIRE
 
      System.out.println("inserisci un numero di elementi da inserire nell'array:");
@@ -25,7 +25,6 @@ public class es1 {
         System.out.println("hai ripetuto più volte queste parole: "+ paroleRipetute);
         System.out.println("hai inserito una sola volta le seguenti parole: "+ parole);
         System.out.println("in totale sono "+ parole.size());
-        System.out.println("premi E se vuoi andare al prossimo esercizio");
     }
 
 }
